@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.bg-red{
+    background-color: red;
+    width: 50%;
+}
+
+
+.bg-rose{
+    background-color: pink;
+
+    
+}
+
+bg-notif{
+    background-color: aqua;
+    width: 30px;
+}
+
+
+
+/*POSITIONS*/
+
+.relative-absolute{
+    position: absolute;
+}
+
+
+.relative{
+    position: relative;
+    background-color: aqua;
+    border-radius: 32px;
+    top: 250px;
+    left:250px;
+}
+
+.fixed-popup{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fixed-header{
+    position: fixed;
+    width: 100%;
+}
+
+
+.fixed-btt{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+/*FLEX-BOX*/
+
+.justify-center{
+    justify-content: center;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.gap-64{
+    gap: 64px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+.align-center{
+    align-items: center;
+}
+
+
+
+
+
+/*MARGIN & PADDING*/
+
+.m-top-64{
+    margin-top: 64px;
+}
+
+m-bot-64{
+    margin-bottom: 64px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+pb-64{
+    padding-bottom: 64px;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*TEXTE*/
+
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/*TAILLE*/
+
+w-100{
+    width: 100%;
+}
+
+.ft-32{
+    font-size: 32px;
+}
+
+
+
+/*COLOR*/
+
+.black{
+    color: black;
+}
